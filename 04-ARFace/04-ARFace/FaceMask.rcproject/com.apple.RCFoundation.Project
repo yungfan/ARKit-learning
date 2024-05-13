@@ -1,0 +1,323 @@
+{
+  "__content" : [
+    {
+      "scenes" : [
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "name" : "face"
+              },
+              "behaviors" : [
+
+              ],
+              "gravity" : [
+                0,
+                0,
+                9.8000001907348633
+              ],
+              "identifier" : "53FE1E67-2134-4B62-A87A-FFB099EA2331",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "9C1F89A9-18A9-4BC3-949A-4FDF8313A781" : null,
+                  "8222C0E0-D3E2-4B66-8942-10F35B5F71C3" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Football Helmet"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "iconicItem" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "16D8F7A7-A9CE-4F54-B4AB-733077DAC087"
+                                }
+                              ]
+                            ]
+                          }
+                        },
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "438F264E-83C2-4B27-85C2-EE98A443472C"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.FootballHelmet.1e98cbba-3057-4369-84b6-0c888d644c6c",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "9CF90229-A51C-4567-8E80-D8A968685D23"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.8632010817527771,
+                        0,
+                        0,
+                        0,
+                        0,
+                        4.6305709133775963e-07,
+                        -0.86320096254348755,
+                        0,
+                        0,
+                        0.86320096254348755,
+                        4.6305709133775963e-07,
+                        0,
+                        5.2154064178466797e-08,
+                        -0.06931498646736145,
+                        0.063572578132152557,
+                        1
+                      ]
+                    }
+                  }
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "casque",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.99056172370910645,
+                  -1.303851515643828e-08,
+                  -0.13706706464290619,
+                  0,
+                  0.0024014133960008621,
+                  0.99984645843505859,
+                  0.017354432493448257,
+                  0,
+                  0.13704575598239899,
+                  -0.017519915476441383,
+                  0.9904097318649292,
+                  0,
+                  0.16870711743831635,
+                  0.049697309732437134,
+                  0.52268058061599731,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  -1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        },
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "name" : "face"
+              },
+              "behaviors" : [
+
+              ],
+              "gravity" : [
+                0,
+                0,
+                9.8000001907348633
+              ],
+              "identifier" : "8FC9DC02-836B-4944-9E90-6328DD02D685",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "0E3B51DD-6A5A-443B-B088-7913D112DB10" : null,
+                  "9E7B406C-2BAB-40FA-A142-D46D51D01AA9" : null,
+                  "462512B3-FAA7-4F03-838E-F8C5FDA9D207" : null,
+                  "BE3D05B4-A47E-4E58-A3B2-BAFEA15C2212" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Baseball Hat"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "488557E3-C69A-4642-A318-0DD5CF99B08B"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.BaseballHat.8e88522c-42fe-49ef-8394-4deb1565e1d2",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "B31D349E-0B43-4BE1-98C0-D1690EC4F761"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1.0000001192092896,
+                        0,
+                        0,
+                        0,
+                        0,
+                        7.152557373046875e-07,
+                        -0.99999988079071045,
+                        0,
+                        0,
+                        0.99999988079071045,
+                        7.152557373046875e-07,
+                        0,
+                        -6.7055225372314453e-08,
+                        -0.0086851250380277634,
+                        -0.015132658183574677,
+                        1
+                      ]
+                    }
+                  }
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "hat",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  -0.61961185932159424,
+                  0,
+                  -0.78490829467773438,
+                  0,
+                  0.31501626968383789,
+                  0.9159284234046936,
+                  -0.24867603182792664,
+                  0,
+                  0.71892011165618896,
+                  -0.40134119987487793,
+                  -0.5675201416015625,
+                  0,
+                  0.75371533632278442,
+                  -0.055265560746192932,
+                  -0.20622196793556213,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  -1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        }
+      ],
+      "tags" : {
+        "__content" : [
+          {
+            "tagsStore" : {
+
+            }
+          }
+        ],
+        "__version" : 1
+      }
+    }
+  ],
+  "__version" : 1
+}

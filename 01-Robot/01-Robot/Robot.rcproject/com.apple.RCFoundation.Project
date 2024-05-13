@@ -1,0 +1,263 @@
+{
+  "__content" : [
+    {
+      "scenes" : [
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "horizontal",
+                "name" : "surface"
+              },
+              "behaviors" : [
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "duration" : 5,
+                                          "isTransformInitKeyPath" : true,
+                                          "linearCoefficient" : 1,
+                                          "location" : [
+                                            0.0016093704616650939,
+                                            -0.20827074348926544,
+                                            0.097243562340736389
+                                          ],
+                                          "moveEase" : "easeInOut",
+                                          "orientation" : [
+                                            0,
+                                            0,
+                                            0,
+                                            1
+                                          ],
+                                          "respectPhysics" : false,
+                                          "scale" : 1.8808745145797729,
+                                          "target" : [
+                                            "B5629F92-FD64-4010-8D10-CEBA5A320F76"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "arguments" : "absolute",
+                                          "type" : "transform"
+                                        }
+                                      },
+                                      "identifier" : "CE9E2E09-ADB7-4438-A87B-88148AAA9A16",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "78535258-A598-4817-9602-4B5EAC1A49B9",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.364705890417099,
+                        0.74117648601531982,
+                        0.69019609689712524,
+                        1
+                      ],
+                      "identifier" : "DF1E8767-0915-48E8-88C7-D6C6A66834C1",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "行为",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "userIdentifier" : "work"
+                                },
+                                "name" : "custom"
+                              },
+                              "identifier" : "9D231D6D-36A4-4816-AE0A-5642659E964A",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                }
+              ],
+              "gravity" : [
+                0,
+                -9.8000001907348633,
+                0
+              ],
+              "identifier" : "5E500E92-D5C8-4BF4-BE92-4567C12A776A",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "5E7C11B6-7A05-4262-9388-10D393B0A626" : null,
+                  "55EABAB0-9A4F-4E63-89F2-FBF8D08AE98F" : null,
+                  "2675EA87-148B-4A2A-A2A0-84FD07AD4086" : null,
+                  "C47F7FE2-C8FA-4E7B-ABED-DA6049077CB1" : null,
+                  "Cube" : null,
+                  "DA698C55-651C-4B19-9966-DA7D47CE4DE3" : null,
+                  "E30AB9EC-2C78-49A2-963C-6E5BF56CAB03" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Robot Toy"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Realistic"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "4A506A75-E864-45C0-9C6D-FDB7D2A01A90"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Robot.7dbebd88-16a2-45e4-8dd7-586dfb2e4910",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "B5629F92-FD64-4010-8D10-CEBA5A320F76"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0.0016102567315101624,
+                        0,
+                        0.097243368625640869,
+                        1
+                      ]
+                    }
+                  },
+                  "FAF25827-3122-4E8E-968C-FDAAF4295374" : null
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "robot",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.99930161237716675,
+                  2.1245796233415604e-09,
+                  0.03736526146531105,
+                  0,
+                  0.014780300669372082,
+                  0.91843885183334351,
+                  -0.39528656005859375,
+                  0,
+                  -0.034317675977945328,
+                  0.39556267857551575,
+                  0.91779756546020508,
+                  0,
+                  -0.011376285925507545,
+                  0.83904391527175903,
+                  2.4370646476745605,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        }
+      ],
+      "tags" : {
+        "__content" : [
+          {
+            "tagsStore" : {
+
+            }
+          }
+        ],
+        "__version" : 1
+      }
+    }
+  ],
+  "__version" : 1
+}
